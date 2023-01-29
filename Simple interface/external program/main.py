@@ -1,4 +1,6 @@
-from interface import my_interface
+import my_interface
 
-my_interface.my_print("hei")
+my_interface.add_time()
+my_interface.add_text("Hei, legger til tekst")
+my_interface.add_text_time("Tekst med klokkeslett")
 
