@@ -11,4 +11,5 @@ def run_tool(path):
     out, error = p.communicate()
     print(out.decode("ascii"))
 
-# run_tool("/Users/oskar/Documents/Skole/Master/Prototypes/Run function in subprocess/tool/tool.py")
+
+run_tool("/Users/oskar/Documents/Skole/Master/Prototypes/Run function in subprocess/tool/tool.py")

@@ -1,5 +1,5 @@
 import json
-
+import sys
 import zmq
 
 
@@ -9,12 +9,16 @@ def addition(x):
     print("result", y)
 
 
+# Get server port
+port = sys.argv[1]
+
+
 context = zmq.Context()
 
 #  Socket to talk to server
 print("Connecting to hello world server…")
 socket = context.socket(zmq.REQ)
-socket.connect("tcp://localhost:5555")
+socket.connect("tcp://localhost:"+port)
 
 #  Do 10 requests, waiting each time for a response
 for request in range(1):
