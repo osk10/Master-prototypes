@@ -6,3 +6,11 @@ Time: 2023-01-29 20:58:26.806713
 Hei, legger til tekst
 Time: 2023-01-29 20:58:26.806843
 Tekst med klokkeslett
+Time: 2023-01-31 12:05:08.761047
+Hei, legger til tekst
+Time: 2023-01-31 12:05:08.761393
+Tekst med klokkeslett
+Time: 2023-01-31 12:05:10.760892
+Hei, legger til tekst
+Time: 2023-01-31 12:05:10.761368
+Tekst med klokkeslett
